@@ -1,0 +1,162 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.header {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.header-logo {
+	color: #FF6501;
+	font-family: 'OpenSans-Light';
+	font-size: 2.0em;
+	text-align: left;
+}
+
+.header-logo-sub {
+	color: #FF6501;
+	font-family: 'OpenSans-Light';
+	font-size: 1.0em;
+	text-align: left;
+}
+
+.nav-list {
+	line-height: 100%;
+}
+.nav-list li {
+	display: inline;
+	width:100px;
+}
+
+.click-button {
+	background-color: #FF6501;
+	height: 30px;
+	line-height: 30px;
+	border-radius:5px;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	width:80px;
+}
+
+.search-button {
+	background-color: #FF6501;
+	height: 30px;
+	width: 30px !important;
+	border-radius:5px;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	background-image: url('../img/search.png');
+	background-position: center;
+}
+
+.search {
+	padding: 5px;
+	padding-top: 20px;
+}
+.search-text {
+	background-color: #fff;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding: 3px;
+	width: 100%;
+	height: 30px;
+	font-family: 'OpenSans-Light';
+	font-size: 1.20pxem;
+}
+.search-text:focus {
+	border:1px solid #FF6501;
+	border-radius: 5px;
+}
+
+.list-box {
+	padding:10px;
+}
+.movies-list {
+
+}
+.movies-list li {
+	display: block;
+	border: 1px solid #ccc;
+	margin: 10px !important;
+	padding:3px;
+	cursor: pointer;
+}
+.movie-title {
+	font-family: 'OpenSans-Light';
+	font-size: 1.2em;
+	color: #000;
+	text-align: left;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+.movie-price {
+	font-family: 'OpenSans-Light';
+	font-size: 1.2em;
+	color: #000;
+	text-align: right;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+.star-rating {
+	height: 30px;
+	width: 30px;
+}
+
+.login-form{
+	text-align: center;;
+	margin:0 auto !important;
+	border-radius: 1px;
+	border:1px solid #ccc;
+	margin-top: 150px !important;
+}
+
+.input-type-1 {
+	text-align: center;
+	border-radius: 5px;
+	width: 70%;
+}
+
+.total-cost {
+	font-family: 'OpenSans-Semibold';
+	font-size: 1.3em;
+	text-align: right;
+}
+
+.total-text {
+	font-family: 'OpenSans-Semibold';
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.total-bar {
+	color:#ffffff;
+	background-color:#FF6501; 
+}
+
+.delete-button {
+	background-image: url('../img/delete.png');
+	background-position: center;
+	height: 30px;
+	width:30px !important;
+	cursor: pointer;
+}
+
+.checkout-button {
+	background-image: url('../img/checkout.png');
+	background-position: center;
+	height: 30px;
+	width:30px !important;
+	cursor: pointer;
+}
+
+.flash-message {
+	color: #FF6501;
+	font-family: 'OpenSans-Light';
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 5px !important;
+}
